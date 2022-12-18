@@ -1,6 +1,6 @@
-# OpenAI API Quickstart - Node.js example app
+# Arboria v2.6 
 
-This is an example pet name generator app used in the OpenAI API [quickstart tutorial](https://beta.openai.com/docs/quickstart). It uses the [Next.js](https://nextjs.org/) framework with [React](https://reactjs.org/). Check out the tutorial or follow the instructions below to get set up.
+This botanical information app utilizes the OpenAI API and the Davinci engine.
 
 ## Setup
 
@@ -11,7 +11,7 @@ This is an example pet name generator app used in the OpenAI API [quickstart tut
 3. Navigate into the project directory
 
    ```bash
-   $ cd openai-quickstart-node
+   $ cd arboria-ai
    ```
 
 4. Install the requirements
@@ -20,10 +20,10 @@ This is an example pet name generator app used in the OpenAI API [quickstart tut
    $ npm install
    ```
 
-5. Make a copy of the example environment variables file
+5. Create an environment variables file
 
    ```bash
-   $ cp .env.example .env
+   $ touch .env
    ```
 
 6. Add your [API key](https://beta.openai.com/account/api-keys) to the newly created `.env` file
