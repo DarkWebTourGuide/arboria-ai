@@ -31,19 +31,6 @@ export default function Home() {
     } finally {
       setLoading(false);
     }
-
-    const response = await fetch("/api/generate", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ plant: plantInput }),
-    });
-    const data = await response.json();
-    setResult(data.result);
-    setPlantInput("");
-
-    setLoading(false);
   }
 
   return (
