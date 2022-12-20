@@ -20,5 +20,5 @@ export default async function (req, res) {
 
 function generatePrompt(plant) {
 
-  return `Information for ${plant} that includes scientific classification, distribution, cultivation, and care instructions.`;
+  return `Information for ${plant} that includes scientific fact, cultivation, and care instructions.`;
 }
