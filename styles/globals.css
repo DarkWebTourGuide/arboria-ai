@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+body {
+    @apply bg-[#343541]
+}
+
+ input[type="text"] {
+    margin: 4px 2px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid #f1f1f1;
+    background-color: transparent;
+    color: #d9d9e3;
+    text-indent: 10px;
+    display: inline-flex;
+    width: 80%;
+  }
+  input[type="submit"] {
+    margin: 4px 2px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #d9d9e3;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  button:active {
+    transform: scale(0.95);
+  }
+  input:focus,
+  button:focus {
+    outline: none;
+  }
