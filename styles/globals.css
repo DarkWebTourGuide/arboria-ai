@@ -20,10 +20,10 @@ body {
     width: 80%;
   }
   input[type="submit"] {
-    margin: 4px 2px;
+    margin: 6px 2px;
     padding: 10px 20px;
     border-radius: 10px;
-    background-color: transparent;
+    background-color: black;
     color: #d9d9e3;
     text-align: center;
     text-decoration: none;

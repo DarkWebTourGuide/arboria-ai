@@ -50,7 +50,7 @@ export default function Home() {
             onChange={(e) => setDeepDataInput(e.target.value)}
           />
           <br />
-          <input className="mt-5" type="submit" value="🔍" />
+          <input className="mt-5" type="submit" value="Submit Query" />
         </form>
 
         {loading && (
