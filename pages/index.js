@@ -38,7 +38,7 @@ export default function Home() {
   return (
     <div >
       <Head>
-        <title>Yukio Labs - App</title>
+        <title>Yukio Labs - Models</title>
         <link className="" rel="icon" href="/logo.png" />
       </Head>
       <main className="text-center content-center">

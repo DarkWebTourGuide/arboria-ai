@@ -36,7 +36,7 @@ export default function Home() {
   return (
     <div >
       <Head>
-        <title>Arboria.AI</title>
+        <title>Yukio Labs - Arboria</title>
         <link className="" rel="icon" href="/logo.png" />
       </Head>
       <main className="text-center content-center p-5 md:m-20 md:p-20">
