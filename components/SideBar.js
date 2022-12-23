@@ -95,7 +95,7 @@ const SideBar = forwardRef(({ showNav }, ref) => {
               <DocumentIcon className="h-5 w-5" />
             </div>
             <div>
-              <p>Docs | API info ↗</p>
+              <p>API info ↗</p>
             </div>
           </div>
         </Link>

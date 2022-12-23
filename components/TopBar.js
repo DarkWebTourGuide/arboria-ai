@@ -1,10 +1,7 @@
 import { Fragment } from "react";
 import {
   Bars3CenterLeftIcon,
-  PencilIcon,
-  ChevronDownIcon,
-  CreditCardIcon,
-  Cog8ToothIcon,
+
 } from "@heroicons/react/24/solid";
 import { BellIcon, CheckIcon } from "@heroicons/react/24/outline";
 import { Menu, Transition, Popover } from "@headlessui/react";

@@ -4,7 +4,7 @@ import TopBar from "./TopBar";
 import { Transition } from "@headlessui/react";
 
 export default function Layout({ children }) {
-  const [showNav, setShowNav] = useState(true);
+  const [showNav, setShowNav] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
   function handleResize() {

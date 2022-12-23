@@ -45,11 +45,12 @@ export default function Home() {
           <input
             type="text"
             name="plant"
-            placeholder="How do I take care of my aloe plant?"
+            placeholder="Ex: Aloe, Avocado tree, Orchid"
             value={plantInput}
             onChange={(e) => setPlantInput(e.target.value)}
           />
-          <input className="mt-5" type="submit" value=">" />
+          <br />
+          <input className="mt-5" type="submit" value="🔍" />
         </form>
 
         {loading && (
