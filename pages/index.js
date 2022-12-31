@@ -40,6 +40,10 @@ export default function Home() {
       <Head>
         <title>Yukio Labs - Models</title>
         <link className="" rel="icon" href="/logo.png" />
+        <meta
+      name="description"
+      content="Beta Release - Explore Advanced AI Models in the Yukio Playground"
+    />
       </Head>
       <main className="text-center content-center">
       <h1 className="text-center content-center text-4xl text-gray-100" >Models</h1>
